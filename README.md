@@ -23,6 +23,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Seed the database using cURL
+```
+curl http://localhost:3000/seed
+```
+
 
 ## Stack used
 * MongoDB
