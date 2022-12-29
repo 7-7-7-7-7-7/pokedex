@@ -17,13 +17,18 @@ yarn install
 npm i -g @nestjs/cli
 ```
 
-4. Running up the database
+4. Copy the .env file
+```bash
+cp .env-example .env
+```
+
+5. Start the database container service
 
 ```bash
 docker-compose up -d
 ```
 
-5. Seed the database using cURL
+6. Seed the database using cURL
 ```
 curl http://localhost:3000/seed
 ```
